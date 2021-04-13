@@ -51,7 +51,7 @@ function App() {
     <div className="container">
       {alert.show && <Alert type={alert.type} text={alert.text} />}
 
-      <h1 >Todo List Web App</h1>
+      <h1 >Todo List</h1>
       <TodoList todos={todos} removeTodo={removeTodo} />
       <AddTodoList
         text={text}
